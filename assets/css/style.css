@@ -21,7 +21,50 @@ header {
 }
 
 .mainsec {
+  display: flex;
+  height: 100px;
   background-color: cadetblue;
   text-decoration: underline;
-  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* trying to give h1 more space from border  */
+h1 {
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  height: 200px;
+  width: 75%;
+  background-color: coral;
+}
+
+.work {
+  display: flex;
+  height: 200px;
+  width: 75%;
+  background-color: cornflowerblue;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+  height: 200px;
+  width: 75%;
+  background-color: darkgoldenrod;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+  display: flex;
+  height: 200px;
+  width: 75%;
+  background-color: darkseagreen;
+}
+
+footer {
+  text-align: center;
 }
