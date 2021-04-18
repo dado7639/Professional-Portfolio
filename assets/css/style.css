@@ -29,6 +29,15 @@ header {
   align-items: flex-end;
 }
 
+main {
+  display: flex;
+}
+
+.sidebar {
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 /* trying to give h1 more space from border  */
 h1 {
   padding: 20px;
@@ -67,4 +76,10 @@ h1 {
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: ###) {
+}
+
+@media screen and (max-width: ###) {
 }
