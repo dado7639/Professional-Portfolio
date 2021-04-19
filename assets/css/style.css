@@ -3,14 +3,8 @@
   padding: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
 header {
-  background-color: burlywood;
+  background-color: rgb(5, 118, 211);
 }
 
 nav {
@@ -28,25 +22,51 @@ h1 {
   padding: 20px;
 }
 
-.about, .work, .contact, .resume {
+.about,
+.work,
+.contact,
+.resume {
   display: flex;
   width: 90%;
   margin: 6% auto;
-  
 }
 
 .title {
   display: flex;
   align-items: center;
-
 }
 
-.about-details{
-  margin-left: 3%
-  flex: 0 0 60%;
-  border-left: black solid 3px;
+.about-details {
+  margin-left: 10%;
+  flex: 0 0 70%;
 }
 
+/* getting this to line up with about me */
+.work-imgs {
+  display: flex;
+  margin-left: 10%;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding: 35px;
+}
+
+.contact-list {
+  display: flex;
+  margin-left: 10%;
+}
+
+li {
+  display: inline;
+  padding: 35px;
+}
+
+.resume-details {
+  text-align: center;
+  font-size: 10px;
+}
 footer {
   text-align: center;
 }
