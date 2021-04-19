@@ -3,10 +3,11 @@
   padding: 0;
 }
 
-/* li {
-  display: inline;
-  padding: 20px;
-} */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 header {
   background-color: burlywood;
@@ -22,64 +23,28 @@ nav a {
   text-decoration: none;
   text-align: center;
 }
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.mainsec {
-  display: flex;
-  height: 100px;
-  background-color: cadetblue;
-  text-decoration: underline;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-/* main {
-  display: flex;
-} */
-
-/* trying to give h1 more space from border  */
 
 h1 {
   padding: 20px;
 }
 
-h2 {
-  margin-right: 100px;
-  border-right: black solid 3px;
+.about, .work, .contact, .resume {
+  display: flex;
+  width: 90%;
+  margin: 6% auto;
+  
 }
 
-.about {
+.title {
   display: flex;
-  height: 200px;
-  width: 75%;
-  background-color: coral;
+  align-items: center;
+
 }
 
-.work {
-  display: flex;
-  height: 200px;
-  width: 75%;
-  background-color: cornflowerblue;
-  /* justify-content: space-around; */
-}
-
-.contact {
-  display: flex;
-  height: 200px;
-  width: 75%;
-  background-color: darkgoldenrod;
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.resume {
-  display: flex;
-  height: 200px;
-  width: 75%;
-  background-color: darkseagreen;
+.about-details{
+  margin-left: 3%
+  flex: 0 0 60%;
+  border-left: black solid 3px;
 }
 
 footer {
