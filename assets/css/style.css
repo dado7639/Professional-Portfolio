@@ -17,6 +17,10 @@ h1 {
   margin: 0;
   padding: 20px;
 }
+
+h2::after {
+}
+
 /* creating header and nav bar */
 header {
   /* makes flex-container..defaulted to row */
@@ -37,6 +41,10 @@ nav a {
   font-size: 20px;
 }
 
+nav a:hover {
+  color: white;
+}
+
 /* defining all sections as flex boxes */
 .about,
 .work,
@@ -47,14 +55,22 @@ nav a {
   margin: 6% auto;
 }
 
+.about-details,
+.work-imgs,
+.contact-list,
+.resume-details {
+  border-left: solid black 3px;
+}
+
 .title {
   display: flex;
   align-items: center;
 }
 
 .about-details {
-  margin-left: 10%;
+  margin-left: 7%;
   flex: 0 0 70%;
+  padding: 10px;
 }
 
 /* getting this to line up with about me */
@@ -66,8 +82,8 @@ nav a {
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   padding: 35px;
 }
 
@@ -101,8 +117,10 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: ###) {
-}
-
-@media screen and (max-width: ###) {
+/* when width gets belwo 768px header and main switch to column */
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
 }
