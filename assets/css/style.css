@@ -65,16 +65,16 @@ nav a:hover {
   display: flex;
   width: 90%;
   margin: 6% auto;
-  background-color: white;
+  background-color: rgb(95, 92, 92);
   border-radius: 10px;
 }
 
-.about-details,
+/* .about-details,
 .work-imgs,
 .contact-list,
 .resume-details {
   border-left: solid black 3px;
-}
+} */
 
 .title {
   display: flex;
@@ -103,10 +103,10 @@ img {
 
 .contact-list {
   display: flex;
-  /* margin-left: 10%; */
   flex: 0 0 100%;
   align-items: center;
   text-decoration: underline;
+  justify-content: center;
 }
 
 li {
