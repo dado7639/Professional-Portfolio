@@ -9,16 +9,15 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   line-height: 1.5;
   background-color: darkgray;
   font-family: "Crimson Text", serif;
 }
+
 h1 {
   margin: 0;
   padding: 20px;
-}
-
-h2::after {
 }
 
 /* creating header and nav bar */
@@ -45,6 +44,19 @@ nav a:hover {
   color: white;
 }
 
+.secondhead {
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1618299723086-dca317f56e04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+  background-position: fill;
+  height: 200px;
+  /* justify-content: left; */
+  font-size: 50px;
+}
+.secondhead img {
+  width: 200px;
+  height: 200px;
+}
+
 /* defining all sections as flex boxes */
 .about,
 .work,
@@ -53,6 +65,8 @@ nav a:hover {
   display: flex;
   width: 90%;
   margin: 6% auto;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .about-details,
@@ -89,7 +103,7 @@ img {
 
 .contact-list {
   display: flex;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   flex: 0 0 100%;
   align-items: center;
   text-decoration: underline;
