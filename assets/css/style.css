@@ -1,20 +1,23 @@
+/* universal selector*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* giving body color and setting font for entire page.  */
 body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
   background-color: darkgray;
+  font-family: "Crimson Text", serif;
 }
 h1 {
   margin: 0;
   padding: 20px;
 }
-
+/* creating header and nav bar */
 header {
   /* makes flex-container..defaulted to row */
   display: flex;
@@ -26,6 +29,7 @@ header {
   top: 0;
 }
 
+/* setting nav bar font color and text size */
 nav a {
   color: black;
   padding: 15px 20px;
@@ -33,6 +37,7 @@ nav a {
   font-size: 20px;
 }
 
+/* defining all sections as flex boxes */
 .about,
 .work,
 .contact,
@@ -65,47 +70,33 @@ img {
   height: 250px;
   padding: 35px;
 }
-/* 
-.flexitem {
-  max-height: 250px;
-  min-height: 250px;
-  display: flex;
-  align-items: center;
-}
-
-#project1 {
-  height: 500px;
-  width: 500px;
-}
-/* 
-#project2,
-#project3 {
-  width: 250px;
-  height: 250px;
-  padding: 35px;
-} */
 
 .contact-list {
   display: flex;
   margin-left: 10%;
   flex: 0 0 100%;
-  /* justify-content: space-between; */
   align-items: center;
   text-decoration: underline;
-  /* justify-content: center;
-  flex-wrap: wrap; */
 }
 
 li {
   display: inline;
   padding: 40px;
-  margin: 0 30px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
 }
 
 .resume-details {
-  text-align: center;
-  font-size: 10px;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 40%;
 }
+
 footer {
   text-align: center;
 }
