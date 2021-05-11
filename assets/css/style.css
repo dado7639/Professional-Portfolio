@@ -49,7 +49,6 @@ nav a:hover {
   background-image: url(https://images.unsplash.com/photo-1618299723086-dca317f56e04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
   background-position: fill;
   height: 200px;
-  /* justify-content: left; */
   font-size: 50px;
 }
 .secondhead img {
@@ -69,13 +68,6 @@ nav a:hover {
   border-radius: 10px;
 }
 
-/* .about-details,
-.work-imgs,
-.contact-list,
-.resume-details {
-  border-left: solid black 3px;
-} */
-
 .title {
   display: flex;
   align-items: center;
@@ -87,7 +79,6 @@ nav a:hover {
   padding: 10px;
 }
 
-/* getting this to line up with about me */
 .work-imgs {
   display: flex;
   margin-left: 10%;
